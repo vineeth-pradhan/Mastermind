@@ -36,8 +36,11 @@ Scenarios: 1 color correct
 | code    | guess   | mark |
 | r g y c | r w w w | b    |
 | r g y c | w w r w | w    |
+Scenarios: No correct guess
+| code    | guess   | mark |
+| r g y c | w w w c |      |
 Scenarios: dups in guess match color in code
 | code    | guess   | mark |
 | r g y c | r g y y | bbb  |
-| r g y c | r g c c | bbb  |
-| r g y c | g c y r | bww  |
+| r g y c | r g y y | bbb  |
+| r g y c | y g r y | bww  |

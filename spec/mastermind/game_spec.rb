@@ -65,7 +65,7 @@ module Mastermind
     context "With duplicates in the guess that match a peg in the code " do
       context "by color and position" do
         it "should add a single b to the mark" do
-          pending()
+#          pending()
           @game.start(%w[r g y c])
           @messenger.should_receive(:puts).with("bbb")
           @game.guess(%w[r g y y])
